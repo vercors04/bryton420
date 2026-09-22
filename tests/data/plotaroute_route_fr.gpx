@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="www.plotaroute.com" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<!-- Synthetic sample reproducing PlotARoute's French "GPX Route" export:
+     route points only, every one marked "Flag, Blue", the manoeuvre in the text. -->
+<metadata>
+<desc>Route created on plotaroute.com</desc>
+</metadata>
+<rte>
+<name>Parcours test</name>
+<rtept lat="45.760000" lon="4.830000">
+<ele>170</ele>
+<cmt>Start on Rue de la République</cmt>
+<desc>Start on Rue de la République</desc>
+<sym>Flag, Blue</sym>
+</rtept>
+<rtept lat="45.761000" lon="4.830000">
+<ele>172</ele>
+<cmt>Tournez à droite sur Rue Étienne Dolet</cmt>
+<desc>Tournez à droite sur Rue Étienne Dolet</desc>
+<sym>Flag, Blue</sym>
+</rtept>
+<rtept lat="45.761000" lon="4.831500">
+<ele>175</ele>
+<cmt>Tournez à gauche sur Rue Mercière</cmt>
+<desc>Tournez à gauche sur Rue Mercière</desc>
+<sym>Flag, Blue</sym>
+</rtept>
+<rtept lat="45.762000" lon="4.831500">
+<ele>174</ele>
+<cmt>Au rond-point, prenez la 2 sortie vers Avenue Berthelot</cmt>
+<desc>Au rond-point, prenez la 2 sortie vers Avenue Berthelot</desc>
+<sym>Flag, Blue</sym>
+</rtept>
+<rtept lat="45.763000" lon="4.831500">
+<ele>180</ele>
+<cmt>Tournez légèrement à droite sur Rue d'Alsace</cmt>
+<desc>Tournez légèrement à droite sur Rue d'Alsace</desc>
+<sym>Flag, Blue</sym>
+</rtept>
+<rtept lat="45.763800" lon="4.832200">
+<ele>185</ele>
+<cmt>Restez sur la droite sur Boulevard des Trois Croix</cmt>
+<desc>Restez sur la droite sur Boulevard des Trois Croix</desc>
+<sym>Flag, Blue</sym>
+</rtept>
+<rtept lat="45.764600" lon="4.832900">
+<ele>190</ele>
+<cmt>Tournez fort à gauche sur Route de Nogent sur Seine</cmt>
+<desc>Tournez fort à gauche sur Route de Nogent sur Seine</desc>
+<sym>Flag, Blue</sym>
+</rtept>
+<rtept lat="45.764200" lon="4.831500">
+<ele>188</ele>
+<cmt>FINISH</cmt>
+<desc>FINISH</desc>
+<sym>Flag, Blue</sym>
+</rtept>
+</rte>
+</gpx>

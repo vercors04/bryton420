@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bryton-route"
+version = "0.4.0"
+description = "Convertit un GPX d'itinéraire en fichier de navigation pour Bryton Rider 420"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Unlicense" }
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+bryton-route = "bryton_route.cli:main"
+
+[tool.setuptools]
+packages = ["bryton_route"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

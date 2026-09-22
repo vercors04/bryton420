@@ -1,0 +1,137 @@
+[
+ {
+  "location": [
+   5.007686,
+   45.700141
+  ],
+  "type": "continue",
+  "modifier": "straight",
+  "name": "Avenue Charles de Gaulle"
+ },
+ {
+  "location": [
+   5.00882,
+   45.699692
+  ],
+  "type": "roundabout",
+  "modifier": "right",
+  "name": "Avenue Charles de Gaulle"
+ },
+ {
+  "location": [
+   5.009096,
+   45.699602
+  ],
+  "type": "exit roundabout",
+  "modifier": "slight right",
+  "name": "Avenue Charles de Gaulle"
+ },
+ {
+  "location": [
+   5.009239,
+   45.699585
+  ],
+  "type": "turn",
+  "modifier": "right",
+  "name": ""
+ },
+ {
+  "location": [
+   5.01381,
+   45.697912
+  ],
+  "type": "fork",
+  "modifier": "slight right",
+  "name": ""
+ },
+ {
+  "location": [
+   5.013902,
+   45.697857
+  ],
+  "type": "turn",
+  "modifier": "left",
+  "name": "Rue Michel Servet"
+ },
+ {
+  "location": [
+   5.014063,
+   45.697922
+  ],
+  "type": "roundabout",
+  "modifier": "slight right",
+  "name": "Avenue Charles de Gaulle"
+ },
+ {
+  "location": [
+   5.014164,
+   45.697935
+  ],
+  "type": "exit roundabout",
+  "modifier": "slight right",
+  "name": "Avenue Charles de Gaulle"
+ },
+ {
+  "location": [
+   5.035465,
+   45.69122
+  ],
+  "type": "new name",
+  "modifier": "straight",
+  "name": "Avenue Jean Moulin"
+ },
+ {
+  "location": [
+   5.052044,
+   45.686279
+  ],
+  "type": "continue",
+  "modifier": "straight",
+  "name": "Avenue Jean Moulin"
+ },
+ {
+  "location": [
+   5.054931,
+   45.686415
+  ],
+  "type": "rotary",
+  "modifier": "slight right",
+  "name": "Avenue Jean Moulin"
+ },
+ {
+  "location": [
+   5.055329,
+   45.686321
+  ],
+  "type": "exit rotary",
+  "modifier": "slight right",
+  "name": "Avenue Jean Moulin"
+ },
+ {
+  "location": [
+   5.060911,
+   45.683875
+  ],
+  "type": "roundabout",
+  "modifier": "right",
+  "name": ""
+ },
+ {
+  "location": [
+   5.061522,
+   45.683682
+  ],
+  "type": "exit roundabout",
+  "modifier": "slight right",
+  "name": ""
+ },
+ {
+  "location": [
+   5.077344,
+   45.674811
+  ],
+  "type": "new name",
+  "modifier": "straight",
+  "name": "Route de Grenoble"
+ }
+]

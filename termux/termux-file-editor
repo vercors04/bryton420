@@ -1,0 +1,42 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# Termux runs this script when a file is shared to it and "Edit" is chosen:
+# the shared file has been saved to ~/downloads and its path is "$1".
+#
+# Install once, from a Termux shell in the Bryton420 folder:
+#   mkdir -p ~/bin && cp termux/termux-file-editor ~/bin/ && chmod +x ~/bin/termux-file-editor
+#
+# It converts the GPX and leaves the .fit in the phone's Download folder, from
+# where the Files app copies it to PlanTrip on the Rider: Termux itself cannot
+# write to a USB drive.
+
+set -u
+
+close() {
+    echo
+    read -r -p "Entrée pour fermer " _
+    exit "$1"
+}
+
+out="$HOME/storage/downloads"
+if [ ! -d "$out" ]; then
+    echo "Le dossier Download du téléphone n'est pas accessible :"
+    echo "lance d'abord termux-setup-storage et accepte la demande d'accès."
+    close 1
+fi
+
+gpx="$1"
+default="$(basename "$gpx")"
+default="${default%.*}"
+echo "Fichier reçu : $(basename "$gpx")"
+read -r -p "Nom de l'itinéraire sur le Rider [$default] : " name
+name="${name:-$default}"
+echo
+
+if bryton-route convert "$gpx" -o "$out" --name "$name"; then
+    echo
+    echo "Branche le Rider avec l'adaptateur OTG, puis, dans l'appli Fichiers,"
+    echo "copie le .fit de Download vers PlanTrip. Éjecte le Rider, éteins-le,"
+    echo "rallume-le et choisis l'itinéraire dans le menu Itinéraires."
+    close 0
+fi
+close 1

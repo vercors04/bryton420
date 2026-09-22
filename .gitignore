@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.venv/
+
+# Your own routes and the files generated from them. Test fixtures are tracked.
+*.gpx
+*.fit
+!tests/data/**
+# Personal exports used by tests/test_local_exports.py; they reveal where you ride.
+tests/data/local/
