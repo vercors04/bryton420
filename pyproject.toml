@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "bryton-route"
 version = "0.4.0"
-description = "Convertit un GPX d'itinéraire en fichier de navigation pour Bryton Rider 420"
+description = "Converts a route GPX into a navigation file for Bryton Rider 420"
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "Unlicense" }
